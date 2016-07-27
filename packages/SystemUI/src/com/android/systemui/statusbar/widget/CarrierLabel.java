@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.android.internal.telephony.TelephonyIntents;
-import com.android.internal.util.aokp.AOKPUtils;
+import com.android.internal.util.au.AUUtils;
 import com.android.systemui.utils.SpnOverride;
 
 import java.text.SimpleDateFormat;
@@ -122,7 +122,7 @@ public class CarrierLabel extends TextView {
                         intent.getStringExtra(TelephonyIntents.EXTRA_SPN),
                         intent.getBooleanExtra(TelephonyIntents.EXTRA_SHOW_PLMN, false),
                         intent.getStringExtra(TelephonyIntents.EXTRA_PLMN));
-                isCN = AOKPUtils.isChineseLanguage();
+                isCN = AUUtils.isChineseLanguage();
             }
         }
     };

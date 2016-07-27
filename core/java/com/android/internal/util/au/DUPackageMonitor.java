@@ -20,7 +20,7 @@
  * to the UI thread
  */
 
-package com.android.internal.util.aokp;
+package com.android.internal.util.au;
 
 import android.content.Context;
 import android.os.Handler;

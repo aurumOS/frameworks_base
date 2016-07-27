@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.aokp;
+package com.android.internal.util.au;
 
 import android.content.Context;
 import android.content.res.Resources;
 
 import java.util.Locale;
 
-public class AOKPUtils {
+public class AUUtils {
 
     public static boolean isNavBarDefault(Context context) {
         return context.getResources().getBoolean(

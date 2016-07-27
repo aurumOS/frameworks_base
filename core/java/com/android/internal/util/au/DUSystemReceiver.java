@@ -20,7 +20,7 @@
  * packages by overriding onExemptBroadcast(Context context, String packageName)
  */
 
-package com.android.internal.util.aokp;
+package com.android.internal.util.au;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

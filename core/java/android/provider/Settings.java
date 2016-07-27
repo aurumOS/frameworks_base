@@ -3827,7 +3827,7 @@ public final class Settings {
         public static final String LISTVIEW_INTERPOLATOR = "listview_interpolator";
 
         /**
-         * AOKP Custom System Animations
+         * aurumOS Custom System Animations
          * @hide
          */
         public static final String[] ACTIVITY_ANIMATION_CONTROLS = new String[] {
@@ -4180,13 +4180,13 @@ public final class Settings {
         public static final String STATUS_BAR_SHOW_WEATHER = "status_bar_show_weather";
 
 	/**
-         * Statusbar AOKP logo
+         * Statusbar aurumOS logo
          * @hide
          */
         public static final String STATUS_BAR_AOKP_LOGO = "status_bar_aokp_logo";
 
         /**
-         * Statusbar AOKP logo color setting
+         * Statusbar aurumOS logo color setting
          * @hide
          */
         public static final String STATUS_BAR_AOKP_LOGO_COLOR = "status_bar_aokp_logo_color";
